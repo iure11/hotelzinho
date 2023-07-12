@@ -1,0 +1,447 @@
+/* Css da página de Turminhas - Rayanne */
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&display=swap');
+
+.sectionTurminhas {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 30px;
+  background-image: url('../src/img/nuvenss.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+}
+
+.tituloTurminhas {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+ 
+
+  
+  
+}
+
+.tituloTurminhas h1 {
+  font-family: 'Fredoka', sans-serif;
+  color: rgb(80, 224, 23);
+  font-weight: bold;
+  font-size: 30px;
+  padding: 10px;
+  text-shadow: 0 0 1px rgb(121, 241, 73);
+  font-weight: 1000;
+  transition: transform .2s ease-in-out;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(3, 97, 0);
+}
+
+.tituloTurminhas p {
+  font-family: 'Gabriela', serif;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  font-size: 20px;
+  
+
+ 
+}
+
+
+.turminhasContainer {
+  font-family: 'Gabriela', serif;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  padding: 20px;
+
+}
+
+.turminhasContainer>div {
+  width: 100%;
+  padding: 20px;
+
+}
+
+.turminhasContainer>div img {
+  width: 300px;
+  padding: 20px;
+
+}
+
+.turminhasContainer>div h2 {
+
+  padding: 20px;
+
+}
+
+
+.turminhas2 {
+  text-align: center;
+  width: 33.33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+  padding: 50px;
+
+}
+
+.turminhas2 img {
+  max-width: 100%;
+  height: 380px;
+  border-radius: 90px;
+
+}
+
+.turminhas2:nth-child(1) .descricaoTurma h2 {
+  color: rgb(216, 18, 173);
+  font-weight: bold;
+  font-size: 28px;
+  padding: 15px;
+
+}
+
+.turminhas2:nth-child(2) .descricaoTurma h2 {
+  color: rgb(221, 10, 38);
+  font-weight: bold;
+  font-size: 28px;
+  padding: 15px;
+
+}
+
+.turminhas2:nth-child(3) .descricaoTurma h2 {
+  color: rgb(49, 10, 221);
+  font-weight: bold;
+  font-size: 28px;
+  padding: 15px;
+
+}
+
+.turminhas2:nth-child(2) {
+  flex-direction: column-reverse;
+  margin-top: 20px;
+
+}
+
+.turminhas2:nth-child(2) .descricaoTurma {
+  order: 2;
+  padding: 15px;
+
+}
+
+.turminhas2:nth-child(2) .imagemTurma {
+  order: 1;
+
+}
+
+
+.descricaoTurma p {
+  padding-bottom: 20px;
+  font-size: 25px;
+
+}
+
+.linhaTitulo {
+  border: none;
+  border-top: 1px solid black;
+  margin: 10px auto;
+  width: 40%;
+
+}
+
+/* Css da página de NosTemos - Rayanne */
+
+.sectionNosTemos {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  background-size: cover;
+  background-position: center;
+}
+
+.tituloNosTemos {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.tituloNosTemos h1 {
+  font-family: 'Fredoka', sans-serif;
+  color: rgb(80, 224, 23);
+  font-weight: bold;
+  font-size: 30px;
+  padding: 10px;
+  text-shadow: 0 0 1px rgb(121, 241, 73);
+  font-weight: 1000;
+  transition: transform .2s ease-in-out;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(3, 97, 0);
+}
+.tituloNosTemos p {
+  font-family: 'Gabriela', serif;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+
+}
+
+.nosTemosContainer {
+  font-family: 'Gabriela', serif;
+  display: flex;
+  font-size: 15px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  padding: 5px;
+  margin-bottom: 100px;
+
+}
+
+.nosTemosContainer>div {
+  width: 100%;
+
+}
+
+.nosTemosContainer img {
+  width: 250px;
+
+}
+
+.nosTemosContainer>div h2 {
+  font-size: 20px;
+
+}
+
+.itemNosTemos {
+  text-align: center;
+  width: 33.33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom:5px;
+  padding: 50px;
+  font-size: 18px;
+ 
+
+}
+
+.itemNosTemos:nth-child(1) h2 {
+  color: rgb(226, 12, 155);
+  font-weight: bold;
+  padding: 5px;
+  margin-bottom: 60px;
+
+}
+
+.itemNosTemos:nth-child(2) h2 {
+  color: rgb(221, 10, 38);
+  font-weight: bold;
+  padding: 5px;
+  margin-bottom: 60px;
+
+}
+
+.itemNosTemos:nth-child(3) h2 {
+  color: rgb(49, 10, 221);
+  font-weight: bold;
+  padding: 5px;
+  margin-bottom: 60px;
+
+}
+
+.itemNosTemos:nth-child(4) h2 {
+  color: rgb(51, 175, 20);
+  font-weight: bold;
+  font-size: 25px;
+  padding: 5px;
+
+}
+
+.itemNosTemos:nth-child(5) h2 {
+  color: rgb(216, 18, 173);
+  font-weight: bold;
+  font-size: 25px;
+  padding: 5px;
+
+}
+
+.itemNosTemos:nth-child(6) h2 {
+  color: rgb(3, 97, 0);
+  font-weight: bold;
+  font-size: 25px;
+  padding: 5px;
+
+}
+
+
+.itemNosTemos p {
+  margin-top: 30px;
+  height: 10px;
+  padding-bottom: 20px;
+}
+
+.itemNosTemos:nth-child(1) img {
+  object-fit: contain;
+  width: 180px;
+  height: 180px;
+  border: 8px solid rgb(226, 12, 155);
+  border-radius: 100%;
+  padding: 5px;
+}
+
+.itemNosTemos:nth-child(2) img {
+  object-fit: contain;
+  width: 180px;
+  height: 180px;
+  border: 8px solid rgb(238, 44, 61);
+  border-radius: 100%;
+  padding: 10px;
+}
+
+.itemNosTemos:nth-child(3) img {
+  object-fit: contain;
+  width: 180px;
+  height: 180px;
+  border: 8px solid blue;
+  border-radius: 100%;
+  padding: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+  .nosTemosContainer {
+    flex-direction: row;
+    margin-top: 40px;
+  }
+
+  .nosTemosContainer img {
+    width: 100%;
+    padding: 10px;
+  }
+  .itemNosTemos:nth-child(1) img {
+    width: 220px;
+    height: 220px;
+  }
+  .itemNosTemos:nth-child(2) img {
+    width: 220px;
+    height: 220px;
+  }
+  .itemNosTemos:nth-child(3) img {
+    width: 220px;
+    height: 220px;
+  }
+
+  .itemNosTemos p {
+    font-size: 20px;
+  }
+
+  .nosTemosContainer>div h2 {
+    font-size: 25px;
+  }
+
+  .turminhasContainer {
+    flex-direction: row;
+
+  }
+
+  .turminhasContainer>div img {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .turminhasContainer>div h2 {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .sectionTurminhas {
+    height: 100%;
+  }
+
+  .tituloTurminhas h1 {
+    font-size: 25px;
+    margin-top: 5px;
+  }
+
+  .tituloTurminhas p {
+    margin: auto;
+    font-family: 'Gabriela', serif;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+  }
+  .turminhas2>div img {
+    width: 300px;
+    height: 300px;
+
+  }
+  .descricaoTurma h2 {
+    font-family: 'Gabriela', serif;
+    font-size: 18px;
+  }
+
+  .descricaoTurma p {
+    font-family: 'Gabriela', serif;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+  }
+
+
+  .turminhas2:nth-child(2) {
+    flex-direction: column-reverse;
+
+  }
+
+  .turminhas2:nth-child(2) .descricaoTurma {
+    order: 1;
+
+  }
+
+  .turminhas2:nth-child(2) .imagemTurma {
+    order: 2;
+
+  }
+
+}
+
+@media (min-width:601px) and (max-width:1024px) {
+  .sectionTurminhas {
+    height: 100%;
+    align-items: center;
+
+  }
+
+  .sectionTurminhas>div img {
+    width: 400px;
+    height: 400px;
+
+  }
+
+  .turminhas2:nth-child(2) {
+    flex-direction: column-reverse;
+
+  }
+
+  .turminhas2:nth-child(2) .descricaoTurma {
+    order: 1;
+
+  }
+
+  .turminhas2:nth-child(2) .imagemTurma {
+    order: 2;
+
+  }
+
+
+}
